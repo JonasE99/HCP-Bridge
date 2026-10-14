@@ -1,0 +1,17 @@
+# KiCad
+*-backups/
+*.kicad_prl
+fp-info-cache
+*.lck
+\#auto_saved_files\#
+_autosave-*
+*.bak
+# General
+__pycache__/
+*.tmp
+Thumbs.db
+hardware/fabrication/netlist.net
+hardware/fabrication/routing/
+
+# Generated 3D file (large)
+hardware/fabrication/HCPBridge.step

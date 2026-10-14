@@ -1,0 +1,128 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "796eb901-6ef2-55fb-bd3b-ccdaeb01c607")
+	(paper "A3")
+	(title_block
+		(title "HCP-Bridge - overview")
+		(date "2026-10-14")
+		(rev "0.1")
+		(company "Jonas Ernst")
+		(comment 1 "Schematic rev 0.1")
+	)
+	(lib_symbols)
+	(sheet
+		(at 30 40)
+		(size 55 30)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "41ce4897-6d5e-57f2-8cbd-9c2c34b88af9")
+		(property "Sheetname" "HCP bus and power"
+			(at 30 39.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bus.kicad_sch"
+			(at 30 70.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "HCPBridge"
+				(path "/796eb901-6ef2-55fb-bd3b-ccdaeb01c607"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100 40)
+		(size 55 30)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a4a97dfe-c5ad-55ff-b4d9-d9a1ff5040bc")
+		(property "Sheetname" "ESP32-S3"
+			(at 100 39.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esp32.kicad_sch"
+			(at 100 70.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "HCPBridge"
+				(path "/796eb901-6ef2-55fb-bd3b-ccdaeb01c607"
+					(page "3")
+				)
+			)
+		)
+	)
+	(text "HCP-Bridge - Hoermann series 4 to Wi-Fi / Loxone"
+		(exclude_from_sim no)
+		(at 25.4 20.32 0)
+		(effects
+			(font
+				(size 3 3)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "17724dcf-b267-5478-89e0-c58f4e1214cb")
+	)
+	(text "One board per door. Plugs into the BUS port (RJ12) of the operator (ProMatic/SupraMatic\nseries 4), emulates a UAP1-HCP module and exposes the door via HTTP/MQTT\n(firmware HCPBridgeMqtt by Gifford47, environment HCP_Giffordv2).\n\n  2 HCP bus and power\n  3 ESP32-S3\n\nWORK IN PROGRESS - rev 0.1 has not been manufactured or tested yet."
+		(exclude_from_sim no)
+		(at 25.4 85.09 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left top)
+		)
+		(uuid "637f3dd1-ba69-5f75-9dce-0c7ba72770f1")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

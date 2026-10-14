@@ -1,0 +1,26 @@
+** Drc report for HCPBridge.kicad_pcb **
+** Created on 2026-10-14T22:11:53+0200 **
+
+** Found 4 DRC violations **
+[silk_edge_clearance]: Bestückungsdruck durch Platinenkante abgeschnitten
+    Regel: board setup constraints silk; warning
+    @(2,0000 mm, 70,0000 mm): Kreisbogen auf Edge.Cuts
+    @(1,9000 mm, 70,2500 mm): Abschnitt von J2 auf F.Silkscreen
+[silk_edge_clearance]: Bestückungsdruck durch Platinenkante abgeschnitten
+    Regel: board setup constraints silk; warning
+    @(34,0000 mm, 72,0000 mm): Abschnitt auf Edge.Cuts
+    @(11,3000 mm, 70,2500 mm): Abschnitt von J2 auf F.Silkscreen
+[silk_edge_clearance]: Bestückungsdruck durch Platinenkante abgeschnitten
+    Regel: board setup constraints silk; warning
+    @(2,0000 mm, 0,0000 mm): Abschnitt auf Edge.Cuts
+    @(8,8000 mm, -0,1000 mm): Abschnitt von U3 auf F.Silkscreen
+[silk_edge_clearance]: Bestückungsdruck durch Platinenkante abgeschnitten
+    Regel: board setup constraints silk; warning
+    @(2,0000 mm, 0,0000 mm): Abschnitt auf Edge.Cuts
+    @(27,2000 mm, -0,1000 mm): Abschnitt von U3 auf F.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

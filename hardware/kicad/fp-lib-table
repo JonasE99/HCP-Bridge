@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "HCPBridge")(type "KiCad")(uri "${KIPRJMOD}/HCPBridge.pretty")(options "")(descr "Eigene Footprints"))
+)

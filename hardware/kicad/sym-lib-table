@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "HCPBridge")(type "KiCad")(uri "${KIPRJMOD}/HCPBridge.kicad_sym")(options "")(descr "Eigene Symbole"))
+)
